@@ -1,0 +1,176 @@
+.carousel-caption {
+    right: 12%;
+    /* vw = medida que considera a largura disponivel da tela */
+    top: 10vw;
+    left: 50%;
+    text-align: right !important;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: "Playwrite HU", cursive, system-ui;
+    /* font-optical-sizing: auto; */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-caption h1 span {
+    font-size: 5rem;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+@media (max-width: 1334px) {
+    .carousel-caption h1 span {
+        font-size: 4.5rem !important;
+        }
+    .carousel-caption h1 {
+        font-size: 2.5rem !important;
+        }
+}
+
+@media (max-width: 1053px) {
+    .carousel-caption h1 span {
+        font-size: 3.5rem !important;
+        }
+    .carousel-caption h1 {
+        font-size: 2.2rem !important;
+        }
+    .carousel-caption p {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .bandeira-italia {
+    height: 2.5rem !important;
+    }
+    .historia-pizzaria {
+        font-size: 1.5rem !important;
+    }
+    .carousel-caption h1 span {
+        font-size: 3rem !important;
+        }
+        .carousel-caption h1 {
+            font-size: 2rem !important;
+        }
+        .carousel-caption p {
+            font-size: 1.5rem !important;
+        }
+    }
+@media (max-width: 826px) {
+    .bandeira-italia {
+    height: 2.3rem !important;
+    }
+    .historia-pizzaria {
+        font-size: 1.3rem !important;
+    }
+    .carousel-caption h1 span {
+    font-size: 2.5rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 1.5rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .bandeira-italia {
+    height: 2rem !important;
+    }
+    .historia-pizzaria {
+        font-size: 1.2rem !important;
+    }
+    .carousel-caption h1 span {
+    font-size: 2rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 1.2rem !important;
+    }
+    .carousel-caption p {
+        font-size: 1.0rem !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .bandeira-italia {
+    height: 1.8rem !important;
+    }
+    .historia-pizzaria {
+        font-size: 0.9rem !important;
+    }
+    .carousel-caption h1 span {
+    font-size: 1.5rem !important;
+    }
+    .carousel-caption h1 {
+        font-size: 0.8rem !important;
+    }
+    .carousel-caption p {
+        font-size: 0.5rem !important;
+    }
+}
+
+
+.texto-vermelho {
+    color: rgb(255, 0, 0);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.texto-verde {
+    color: rgb(3, 100, 3);
+}
+
+.historia-pizzaria {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.letra-texto {
+    font-family: "Playwrite HU", cursive, system-ui !important;
+    font-optical-sizing: auto;
+    font-weight: 500 !important;
+}
+
+.bandeira-italia {
+    height: 3.0rem;
+    margin-left: -1rem;
+}
+
+.selo-pizzaria {
+    margin-top: -5.5rem;
+    margin-left: -2rem;
+}
+
+.assinatura-pizzaria {
+    margin-top: -3.0rem;
+    margin-left: 4rem;
+}
+
+.pizza-menu {
+    background-color: transparent; /* Estado padrão */
+    transform: scale(1); /* Sem escala */
+    box-shadow: none; /* Sem sombra */
+    transition: all 0.3s ease-in-out; /* Suaviza a transição */
+}
+
+.pizza-menu:hover {
+    background-color: white; /* Quando o mouse está sobre */
+    transform: scale(1.05); /* Aumenta levemente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra */
+}
+
+.img-pizza {
+    filter: grayscale(100%); /* Imagem em preto e branco */
+}
+
+.img-pizza:hover {
+    filter: grayscale(0%); /* Remove o filtro ao passar o mouse */
+}
